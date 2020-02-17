@@ -1,0 +1,124 @@
+body{
+     background-color: white;
+     font-size: 20px;
+     line-height: 2.4em;
+     font-family: helvetica;
+     
+}
+
+#container
+{
+     width: 80%;
+     background-color:rgb(119, 80, 28);
+     margin-left: 10%;
+}
+
+li{
+
+     list-style: none;
+}
+
+a:hover{
+     background-color:rgb(190, 132, 54);
+     color: white;
+}
+
+h2{
+     font-size: 20px;
+     color:rgb(29, 17, 2);
+}
+div{
+     font-size:30px;
+     font-family: Arial, Helvetica, sans-serif;
+     border-color: black;
+     border-width: 3px;
+     border-inline-start-style: initial;
+     color: rgb(15, 12, 12);
+     border-bottom: black;
+}
+
+ #header{
+     font-size:30px;
+     color: rgb(63, 38, 5);
+}
+.bb{
+     padding-top:20px;
+     padding-bottom:20px;
+     color: rgb(48, 28, 3);     
+}
+
+h2{
+     font-size: 30px;
+     color: rgb(31, 18, 2);
+}
+h3{
+     font-size: 30px;
+}
+
+#intro{
+     float: inline;
+     width: 1200px
+}
+
+#tarts{
+     display: inline-block;
+     float: left
+     width: 400px
+     
+}
+#tarts2{
+     float: left;
+     width: 400px 
+
+}
+#tarts3{
+     float: left;
+     width: 400px
+}
+#paragraph{
+     width: 1000px
+}
+#cook{
+
+     width: 1000px
+}
+#cancel{
+     clear: both;
+}
+
+#images{
+       float: right;
+        width: 600px;
+        text-align: right;
+    
+}
+#method li{
+     list-style-type: decimal;
+
+}
+
+#method{
+
+     width: 1200px
+     
+     
+}
+
+#meth{
+     clear: both;
+     width: 1200px
+
+}
+#images{
+
+     width: 405px;
+}
+
+#img2{
+     
+     width: 405px;
+}
+
+#img3{
+     width: 405px;
+}
