@@ -1,95 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 body{
-     background-color: white;
-     font-size: 20px;
-     line-height: 2.4em;
-     font-family: helvetica;
+     background-color: rgb(226, 202, 170);
+     font-family: 'Roboto', sans-serif;
+     font-size: 18px;
+     color:black;
      
 }
 
-#container
-{
-     width: 80%;
-     background-color:rgb(119, 80, 28);
-     margin-left: 10%;
+.container{
+     width:80%;
+     background-color:white;
+     margin-left: 30%;
+     font-family: 'Roboto', sans-serif ;
+     font-size: 18px;
+     color: black;
 }
 
-li{
-
-     list-style: none;
+#header{
+     font-size:18px;
+     color: rgb(63, 38, 5);
+     margin-left: 30px;
 }
-
 a:hover{
      background-color:rgb(190, 132, 54);
      color: white;
 }
-
-h2{
-     font-size: 20px;
-     color:rgb(29, 17, 2);
+h1{
+     margin-left: 30px;
+     color: rgb(49, 32, 10);
 }
+h2{
+     margin-left: 5px; 
+     color: rgb(49, 32, 10);
+     width: 100%;
+}
+h3{
+     margin-left: 30px;
+     color: rgb(49, 32, 10);
+}
+h4{
+     margin-left: 30px;
+     color:rgb(49, 32, 10); 
+}
+
 div{
-     font-size:30px;
-     font-family: Arial, Helvetica, sans-serif;
+     font-size: 18px ;
+     font-family: 'Roboto', sans-serif;
      border-color: black;
      border-width: 3px;
      border-inline-start-style: initial;
-     color: rgb(15, 12, 12);
      border-bottom: black;
 }
 
- #header{
-     font-size:30px;
-     color: rgb(63, 38, 5);
-}
+ 
 .bb{
      padding-top:20px;
      padding-bottom:20px;
-     color: rgb(48, 28, 3);     
+     color: rgb(48, 28, 38);
 }
 
-h2{
-     font-size: 30px;
-     color: rgb(31, 18, 2);
-}
-h3{
-     font-size: 30px;
+#paragraph{
+     width:100%;
+     margin-left:30px;
+
 }
 
-#intro{
-     float: inline;
-     width: 1200px
-}
 
-#tarts{
-     display: inline-block;
-     float: left
-     width: 400px
+#cook{
+     width:1000px;
+     margin-left:30px;
      
 }
-#tarts2{
+     
+#intro{
+     float: inline;
+     width: 1200px;
+     margin-left: 30px;
+     font-size: 18px;
+}
+
+.tarts1{
      float: left;
-     width: 400px 
+     width: 400px;
+     
+}
+.tarts2{
+     float: left;
+     width:400px;
 
 }
-#tarts3{
+.tarts3{
      float: left;
-     width: 400px
+     width:400px;
 }
-#paragraph{
-     width: 1000px
-}
-#cook{
 
-     width: 1000px
-}
 #cancel{
      clear: both;
 }
 
-#images{
-       float: right;
-        width: 600px;
-        text-align: right;
     
 }
 #method li{
@@ -97,28 +106,51 @@ h3{
 
 }
 
-#method{
+.method{
+     list-style-type: decimal;
+     width:80%;
+     float:left;
+     margin-left:30px;
 
-     width: 1200px
-     
-     
 }
 
 #meth{
      clear: both;
-     width: 1200px
-
+     width: 80%;
+     
 }
-#images{
 
-     width: 405px;
+#aside{
+     float:right;
+     display:inline-block
+}
+
+#images{
+     /*float: right;*/
+      text-align: right;
+     
 }
 
 #img2{
+     /*float: right;*/
+     text-align: right;
      
-     width: 405px;
 }
 
 #img3{
-     width: 405px;
+     /*float: right;*/
+     text-align: right;
 }
+@mediascreen and (max-width:722px)
+{
+     h2{
+          font-size:16px;
+     }
+     #paragraph{ 
+          width: auto;
+
+
+
+     }
+}
+
