@@ -5,6 +5,7 @@ body{
      font-family: 'Roboto', sans-serif;
      font-size: 18px;
      color:black;
+     padding: 20px 20px 20px;
      
 }
 
@@ -68,31 +69,31 @@ div{
 
 
 #cook{
-     width:1000px;
+     width:100%;
      margin-left:30px;
      
 }
      
 #intro{
      float: inline;
-     width: 1200px;
+     width: 100%;
      margin-left: 30px;
      font-size: 18px;
 }
 
 .tarts1{
      float: left;
-     width: 400px;
+     width: 100%;
      
 }
 .tarts2{
      float: left;
-     width:400px;
+     width:100%;
 
 }
 .tarts3{
      float: left;
-     width:400px;
+     width:100%;
 }
 
 #cancel{
@@ -141,7 +142,7 @@ div{
      /*float: right;*/
      text-align: right;
 }
-@mediascreen and (max-width:722px)
+@mediascreen and (max-width:652px)
 {
      h2{
           font-size:16px;
