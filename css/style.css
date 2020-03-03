@@ -40,7 +40,7 @@ a:hover{
     background-color: rgb(223, 223, 235);
 }
 
-.containerZ{
+.tarts1{
     font-family:'Roboto', sans-serif;
     border:rgb(90, 74, 74) 2px solid ;
     width:750px;
@@ -51,7 +51,7 @@ a:hover{
     padding:30px;
     padding-left:80px;   
 }
-.containerC{
+.tarts2{
     font-family:'Roboto', sans-serif;
     border:rgb(90, 74, 74) 2px solid ;
     width:750px;
